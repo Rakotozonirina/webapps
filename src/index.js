@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import SSRProvider from 'react-bootstrap/SSRProvider';
-import App from './App'
+import App from './app'
 ReactDOM.render(
     <SSRProvider>
     <App/>
