@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//Rakotozonirina.github.io/webapps/static/css/main.c2cab247.css",
+    "main.js": "/https//Rakotozonirina.github.io/webapps/static/js/main.89fad4a4.js",
+    "index.html": "/https//Rakotozonirina.github.io/webapps/index.html",
+    "main.c2cab247.css.map": "/https//Rakotozonirina.github.io/webapps/static/css/main.c2cab247.css.map",
+    "main.89fad4a4.js.map": "/https//Rakotozonirina.github.io/webapps/static/js/main.89fad4a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.89fad4a4.js"
+  ]
+}
