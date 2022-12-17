@@ -37,7 +37,41 @@ section.home nav button{
     border-radius: 20px;
 }
 section.hero{
-    border: 2px solid #777;
     width: 100%;
     height: 40em;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+section.hero section.left-hero{
+    margin-block-start: 8em;
+    padding: 0em 5.5em;
+}
+section.hero section.left-hero h1{
+    font-style: italic;
+    color: #0014FF;
+}
+section.hero section.left-hero p{
+    margin-block-start: 1.2em;
+}
+section.hero section.left-hero div button{
+    padding: 1em;
+    width: 10em;
+    outline: none;
+    border: 1px solid #0014FF;
+    color: #0014FF;
+    border-radius: 20px;
+}
+section.hero section.left-hero div button svg{
+    width: 1em;
+    height: 1em;
+    margin-inline-start: 1em;
+    fill: #0014FF;
+}
+section.hero section.left-hero div{
+    display: grid;
+    justify-content: center;
+    margin-block-start: 1.6em;
+}
+section.hero section.right-hero{
+    border: 2px solid #777;
 }
