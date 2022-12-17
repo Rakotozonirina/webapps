@@ -5,8 +5,8 @@
     max-width: 440px;
     color:rgb(0, 0, 0) ;
     padding: 50px 30px;
-    border: 1px solid #8C6CA6;
-    background: #8C6CA6;
+    border: 1px solid #534848;
+    background: #c9c5c5;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -14,7 +14,34 @@
 .back1{
     background: url("./image/Frame\ 15.png ");
     width: 300px;
-    height: 70%;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
+}
+.back2{
+    background: url("./image/Frame\ 15-1.png");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
+}
+.back3{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
+}
+.back4{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 75%;
     border-radius: 16px;
     margin-left: -13%;
     margin-top: -22%;
@@ -22,12 +49,30 @@
 }
 h1{
     font-size: 30px;
+    margin-left:0%;
+    color: #8C6CA6;
+}
+.schr{
+    font-size: 25px;
+    text-align: center;
+    margin-left:-12%;
+    color: #8C6CA6; 
+}
+.schr2{
+    font-size: 25px;
+    text-align: center;
+    margin-left:-33%;
+    color: #8C6CA6; 
+}
+.oo{
+    font-size: 20px;
+    margin-left: -6%;
+    margin-top: 5%;  
 }
 h2{
-    font-size: 21px;
-    margin: 0;
-    margin-left: -10%;
-    margin-top: 12%;
+    font-size: 20px;
+    margin-left: -6%;
+    margin-top: 5%;
 }
 .b{
     width: 300px;
@@ -35,10 +80,9 @@ h2{
     margin-top: 3%;
     max-width: 440px;
     color:rgb(0, 0, 0) ;
-    text-align: center;
     padding: 50px 30px;
-    border: 1px solid #8C6CA6;
-    background: #8C6CA6;
+    border: 1px solid #534848;
+    background: #c9c5c5;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -49,10 +93,9 @@ h2{
     margin-top: 3%;
     max-width: 440px;
     color:rgb(0, 0, 0) ;
-    text-align: center;
     padding: 50px 30px;
-    border: 1px solid #8C6CA6;
-    background: #8C6CA6;
+    border: 1px solid #534848;
+    background: #c9c5c5;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -63,10 +106,9 @@ h2{
     margin-top: 7%;
     max-width: 440px;
     color:rgb(0, 0, 0) ;
-    text-align: center;
     padding: 50px 30px;
-    border: 1px solid #8C6CA6;
-    background: #8C6CA6;
+    border: 1px solid #534848;
+    background: #c9c5c5;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
