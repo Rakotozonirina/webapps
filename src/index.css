@@ -1,0 +1,61 @@
+.a{
+    width: 300px;
+    height: 500px;
+    margin-top: 1%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid #8C6CA6;
+    background: #8C6CA6;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.b{
+    width: 300px;
+    height: 500px;
+    margin-top: 3%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid #8C6CA6;
+    background: #8C6CA6;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.c{
+    width: 300px;
+    height: 500px;
+    margin-top: 5%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid #8C6CA6;
+    background: #8C6CA6;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.d{
+    width: 300px;
+    height: 500px;
+    margin-top: 7%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid #8C6CA6;
+    background: #8C6CA6;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.about{
+    display: flex;
+    gap: 2em;
+    margin-left: 2.5%;
+}
