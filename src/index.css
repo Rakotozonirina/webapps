@@ -1,127 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    margin: 0;
+.a{
+    width: 300px;
+    height: 500px;
+    margin-top: 7%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    padding: 50px 30px;
+    border: 1px solid #534848;
+    background: #c9c5c5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
-section.home nav{
-    width: 100%;
-    height: 5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-family: 'Poppins', sans-serif;
-    z-index: 2;
-    background-color: #f1f1f1;
-}
-section.home nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    margin-block-start: 1em;
-    width: 50rem;
-}
-section.home nav ul li a{
-    text-decoration: none;
-    color: #000;
-}
-section.home nav button{
-    margin-inline-end: 6em;
-    padding: 0.8em;
-    outline: none;
+.back1{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
     border: none;
-    background-color: #0014FF;
-    color: #f1f1f1;
-    border-radius: 20px;
 }
-section.hero{
-    width: 100%;
-    height: 40em;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+.back2{
+    background: url("./image/Frame\ 15-1.png");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
 }
-section.hero section.left-hero{
-    margin-block-start: 8em;
-    padding: 0em 5.5em;
+.back3{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
 }
-section.hero section.left-hero h1{
-    font-style: italic;
-    color: #0014FF;
+.back4{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 75%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
 }
-section.hero section.left-hero p{
-    margin-block-start: 1.2em;
-    font-family: 'Poppins', sans-serif;
+h1{
+    font-size: 30px;
+    margin-left:0%;
+    color: #8C6CA6;
 }
-section.hero section.left-hero div button{
-    padding: 1em;
-    width: 10em;
-    outline: none;
-    border: 1px solid #0014FF;
-    color: #0014FF;
-    border-radius: 20px;
-    font-family: 'Poppins', sans-serif;
+.schr{
+    font-size: 25px;
+    text-align: center;
+    margin-left:-12%;
+    color: #8C6CA6; 
 }
-section.hero section.left-hero div button svg{
-    width: 1em;
-    height: 1em;
-    margin-inline-start: 1em;
-    fill: #0014FF;
+.schr2{
+    font-size: 25px;
+    text-align: center;
+    margin-left:-33%;
+    color: #8C6CA6; 
 }
-section.hero section.left-hero div{
-    display: grid;
-    justify-content: flex-start;
-    margin-block-start: 1.6em;
+.oo{
+    font-size: 20px;
+    margin-left: -6%;
+    margin-top: 5%;  
 }
-section.hero section.right-hero{
-    position: relative;
-    overflow-x: hidden;
+h2{
+    font-size: 20px;
+    margin-left: -6%;
+    margin-top: 5%;
 }
-section.hero section.right-hero .image_one{
-    background: url("./image/image_one.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 13%;
-    left: 0%;
-    z-index: 1;
+.b{
+    width: 300px;
+    height: 500px;
+    margin-top: 3%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    padding: 50px 30px;
+    border: 1px solid #534848;
+    background: #c9c5c5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
-section.hero section.right-hero .image_two{
-    background: url("./image/image_two.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    z-index: 2;
+.c{
+    width: 300px;
+    height: 500px;
+    margin-top: 3%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    padding: 50px 30px;
+    border: 1px solid #534848;
+    background: #c9c5c5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
-section.hero section.right-hero .image_three{
-    background: url("./image/image_three.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 27%;
-    left: 20%;
-    z-index: 3;
+.d{
+    width: 300px;
+    height: 500px;
+    margin-top: 7%;
+    max-width: 440px;
+    color:rgb(0, 0, 0) ;
+    padding: 50px 30px;
+    border: 1px solid #534848;
+    background: #c9c5c5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
-section.hero section.right-hero .image_four{
-    background: url("./image/image_four.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 34%;
-    left: 30%;
-    z-index: 4;
-}
-::-webkit-scrollbar {
-    width: 0.2em;
-}
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.8);
-    border: 1px solid #777;
+.about{
+    display: flex;
+    gap: 2em;
+    margin-left: 2.5%;
 }
