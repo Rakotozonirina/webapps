@@ -3,8 +3,8 @@ import Photo from "../photos/paysage.png";
 
 const Apropos = (props) => {
     return (
-        <div>
-            <img src={Photo} alt="" width={100} />
+        <div className="info">
+            <img src={Photo} alt="" />
             <h4>{props.titre}</h4>
             <p>Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit.

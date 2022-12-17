@@ -1,16 +1,20 @@
 import { render } from '@testing-library/react';
 import React, { Component } from 'react';
-import Apropos from "./components/Apropos.js";
 import "./index.css";
+import Sary from "./photos/gauche.png";
 
 class App extends Component {
     render() {
         return (
             <div className='conteneur'>
-                <Apropos titre="Lieu de loisir"></Apropos>
-                <Apropos titre="Recherche du travail"></Apropos>
-                <Apropos titre="Recherche de document"></Apropos>
-                <Apropos titre="Jeux"></Apropos>
+                <img src={Sary} alt="" className='gauche' />
+                <div>
+                    <h2>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</h2>
+                    <p>Pour faire des etude et des recherche
+                        des besoin</p>
+                    <button className='bienvenu'>Bienvenu</button>
+                </div>
             </div>
         )
     }
