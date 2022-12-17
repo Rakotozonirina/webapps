@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .conteneur {
     display: flex;
     justify-content: space-between;
+    height: 250px;
+}
+
+.conteneur div p,
+.conteneur div h2 {
+    margin-bottom: 50px;
 }
 
 .bienvenu {
@@ -9,9 +20,33 @@
     padding: 15px 40px;
     border-radius: 5px;
     color: white;
+    font-size: 25px;
 }
 
 .gauche {
     width: 300px;
-    border-right: 5px solid blue;
+}
+
+.contFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1264C5;
+    padding: 50px 20px 50px 50px;
+    color: white;
+    margin-top: 15px;
+    height: 150px;
+}
+
+.contFooter div input {
+    width: 90%;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.contFooter div p {
+    margin-bottom: 20px;
+}
+
+.contFooter div h3 {
+    margin-bottom: 20px;
 }
