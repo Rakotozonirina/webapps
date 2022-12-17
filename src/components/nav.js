@@ -4,7 +4,6 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 export default function Nav() {
     return(
-        <>
             <section className='home'>
                 <nav>
                     <ul>
@@ -16,6 +15,5 @@ export default function Nav() {
                     <button>Connexion</button>
                 </nav>
             </section>
-        </>
     )
 }
