@@ -1,10 +1,19 @@
-import React from 'react'
-import Nav from './components/nav'
+import { render } from '@testing-library/react';
+import React, { Component } from 'react';
+import Apropos from "./components/Apropos.js";
+import "./index.css";
 
-export default function App() {
-    return(
-        <>
-            <Nav/>
-        </>
-    )
+class App extends Component {
+    render() {
+        return (
+            <div className='conteneur'>
+                <Apropos titre="Lieu de loisir"></Apropos>
+                <Apropos titre="Recherche du travail"></Apropos>
+                <Apropos titre="Recherche de document"></Apropos>
+                <Apropos titre="Jeux"></Apropos>
+            </div>
+        )
+    }
 }
+
+export default App;
