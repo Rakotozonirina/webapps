@@ -52,6 +52,7 @@ section.hero section.left-hero h1{
 }
 section.hero section.left-hero p{
     margin-block-start: 1.2em;
+    font-family: 'Poppins', sans-serif;
 }
 section.hero section.left-hero div button{
     padding: 1em;
@@ -60,6 +61,7 @@ section.hero section.left-hero div button{
     border: 1px solid #0014FF;
     color: #0014FF;
     border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 section.hero section.left-hero div button svg{
     width: 1em;
@@ -69,9 +71,57 @@ section.hero section.left-hero div button svg{
 }
 section.hero section.left-hero div{
     display: grid;
-    justify-content: center;
+    justify-content: flex-start;
     margin-block-start: 1.6em;
 }
 section.hero section.right-hero{
-    border: 2px solid #777;
+    position: relative;
+    overflow-x: hidden;
+}
+section.hero section.right-hero .image_one{
+    background: url("./image/image_one.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    z-index: 1;
+}
+section.hero section.right-hero .image_two{
+    background: url("./image/image_two.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+}
+section.hero section.right-hero .image_three{
+    background: url("./image/image_three.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    z-index: 3;
+}
+section.hero section.right-hero .image_four{
+    background: url("./image/image_four.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    z-index: 4;
+}
+::-webkit-scrollbar {
+    width: 0.2em;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #777;
 }
