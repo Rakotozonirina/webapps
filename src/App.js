@@ -7,6 +7,7 @@ export default function App() {
     return(
         <main>
             <Nav/>
+            <Hero/>
             <About/>
         </main>
     )
