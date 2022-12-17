@@ -6,7 +6,12 @@ export default function About() {
         <>
         <section className="about">
           <div className="a">
-           <h1>elio</h1>
+            <div className="back1"></div>
+           <h1>Lieu de loisir</h1>
+           <h2>Lorem ipsum dolor sit amet,<br></br> 
+                consectetur adipiscing elit. <br></br>
+                Nunc vulputate libero et velit<br></br>
+                interdum, ac aliquet odio mattis.</h2>
           </div>
           <div className="b">
           <h1>rachel</h1>

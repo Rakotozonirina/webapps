@@ -4,13 +4,30 @@
     margin-top: 7%;
     max-width: 440px;
     color:rgb(0, 0, 0) ;
-    text-align: center;
     padding: 50px 30px;
     border: 1px solid #8C6CA6;
     background: #8C6CA6;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
+}
+.back1{
+    background: url("./image/Frame\ 15.png ");
+    width: 300px;
+    height: 70%;
+    border-radius: 16px;
+    margin-left: -13%;
+    margin-top: -22%;
+    border: none;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 21px;
+    margin: 0;
+    margin-left: -10%;
+    margin-top: 12%;
 }
 .b{
     width: 300px;
