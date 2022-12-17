@@ -53,3 +53,83 @@
     .creat{
         color: #0014FF;
     }
+
+
+/*page 2*/
+
+.av{
+    width: 100px;
+    height: 100px;
+    background-image: url(./image/avatar.png);
+    background-size: cover;
+    display: inline-block;
+    
+}
+.ecran2{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -99%;
+}
+.ecran2.active{
+	display: flex;
+}
+.Login2{
+        
+        width: 100%;
+        max-width: 700px;
+        color:rgb(0, 0, 0) ;
+        text-align: center;
+        padding: 50px 30px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(37, 34, 34, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+
+
+
+    }
+    .logs{
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 40px;
+        border: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .name{
+        gap: 2em;
+        display: flex;
+    }
+    input{
+        background-color: #C4C4C4;
+        width: 100%;
+        height: 40px;
+        border: none;
+    }
+    .submit2{
+        margin-right: -70%;
+        background-color: #0014FF;
+        color: white;
+        border-radius: 16px;
+        width: 150px;
+        height: 60px;
+        
+    }
+    h3{
+        display: flex;
+        font-size: 15px;
+    }
+    .conth3{
+        display: flex;
+        gap: 2.5em;
+    }
+    .creat{
+        color: #0014FF;
+    }
