@@ -1,12 +1,19 @@
+import React from 'react';
+import Nav from './components/nav';
+import About from './components/about';
+import Hero from './components/hero';
 import { render } from '@testing-library/react';
-import React, { Component } from 'react';
 import "./index.css";
 import Sary from "./photos/gauche.png";
 import Footer from './components/footer';
 
-class App extends Component {
-    render() {
-        return (
+
+export default function App() {
+    return(
+        <>
+            <Nav/>
+            <Hero/>
+            <About/>
             <div>
                 <div className='conteneur'>
                     <img src={Sary} alt="" className='gauche' />
@@ -20,8 +27,7 @@ class App extends Component {
                 </div>
                 <Footer />
             </div>
-        )
-    }
+        </>
+    )
 }
 
-export default App;
