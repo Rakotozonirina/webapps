@@ -8,7 +8,6 @@ import Sary from "./photos/gauche.png";
 import Footer from './components/footer';
 import './animation-library/css/slide.css';
 import React from "react"
-
 export default function App() {
     
     return(
