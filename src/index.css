@@ -235,9 +235,9 @@ h3.apropos{
     margin-inline-start: 3.5em;
 }
 .conteneur {
-    display: flex;
-    justify-content: space-between;
-    height: 250px;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    height: 20rem;
 }
 
 .conteneur div p,
@@ -255,9 +255,12 @@ h3.apropos{
 }
 
 .gauche {
+    height: 100%;
     width: 300px;
 }
-
+div.contenus_para{
+    padding: 0em 3.6em;
+}
 .contFooter {
     display: flex;
     justify-content: space-between;
