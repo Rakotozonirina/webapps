@@ -1,6 +1,6 @@
-import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import React from 'react'
 export default function Nav() {
     return(
             <section className='home'>
@@ -11,7 +11,7 @@ export default function Nav() {
                         <li><a href="#">News</a></li>
                         <li><a href="#footer">Contact</a></li>
                     </ul>
-                    <button>Connexion</button>
+                    <button><a href='#ecran'>Connexion</a></button>
                 </nav>
             </section>
     )
