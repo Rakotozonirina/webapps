@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/https//Rakotozonirina.github.io/webapps/static/css/main.c2cab247.css",
-    "main.js": "/https//Rakotozonirina.github.io/webapps/static/js/main.89fad4a4.js",
+    "main.css": "/https//Rakotozonirina.github.io/webapps/static/css/main.5cd2f9d0.css",
+    "main.js": "/https//Rakotozonirina.github.io/webapps/static/js/main.510efabc.js",
+    "static/media/image_one.png": "/https//Rakotozonirina.github.io/webapps/static/media/image_one.ce8494be6471f842b569.png",
+    "static/media/gauche.png": "/https//Rakotozonirina.github.io/webapps/static/media/gauche.04f0158dc3b9718fe656.png",
+    "static/media/image_four.png": "/https//Rakotozonirina.github.io/webapps/static/media/image_four.5d9dfb45c0731fb602a9.png",
+    "static/media/image_three.png": "/https//Rakotozonirina.github.io/webapps/static/media/image_three.52c4aa40f4508e5102ae.png",
+    "static/media/image_two.png": "/https//Rakotozonirina.github.io/webapps/static/media/image_two.5d97f9cffcfd2d323c3b.png",
+    "static/media/Frame 15-1.png": "/https//Rakotozonirina.github.io/webapps/static/media/Frame 15-1.1c22a5141f14eee12c43.png",
+    "static/media/Frame 15-e.png": "/https//Rakotozonirina.github.io/webapps/static/media/Frame 15-e.53eee063265ad0d4e820.png",
+    "static/media/Frame 15.png": "/https//Rakotozonirina.github.io/webapps/static/media/Frame 15.07500484b1c7e4969895.png",
+    "static/media/paysage.png": "/https//Rakotozonirina.github.io/webapps/static/media/paysage.259121e2bef511f2f306.png",
+    "static/media/Frame 15-3.png": "/https//Rakotozonirina.github.io/webapps/static/media/Frame 15-3.f79c17058dbd25e61dbb.png",
     "index.html": "/https//Rakotozonirina.github.io/webapps/index.html",
-    "main.c2cab247.css.map": "/https//Rakotozonirina.github.io/webapps/static/css/main.c2cab247.css.map",
-    "main.89fad4a4.js.map": "/https//Rakotozonirina.github.io/webapps/static/js/main.89fad4a4.js.map"
+    "main.5cd2f9d0.css.map": "/https//Rakotozonirina.github.io/webapps/static/css/main.5cd2f9d0.css.map",
+    "main.510efabc.js.map": "/https//Rakotozonirina.github.io/webapps/static/js/main.510efabc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.89fad4a4.js"
+    "static/css/main.5cd2f9d0.css",
+    "static/js/main.510efabc.js"
   ]
 }
