@@ -5,7 +5,7 @@ import '../animation-library/css/attention.css'
 export default function About() {
     return(
         <>
-        <h3 className='apropos u--swing'>A Propos</h3>
+        <h2 className='apropos u--swing'>A Propos</h2>
         <section className="about" id="about">
             <div className="a u--bounceIn">
                 <div className="back1"></div>

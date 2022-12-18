@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../vanilla-tilt'
 export default function Formulaire() {
     const readFile = () => {
@@ -12,13 +12,7 @@ export default function Formulaire() {
         reader.readAsDataURL(file);
 
     }
-
-
-        const afficher = () => {
-            document.querySelector('.ecran2').classList.toggle('active')
-        }
-
-
+    const [show, setShow] = useState(true)
     return(
     <>
     <section className='ecran'id='ecran'>
@@ -37,7 +31,7 @@ export default function Formulaire() {
                 </div><br></br>
                 <div className='conth3'>
                     <h3>Pas de comps?</h3>
-                    <a href='#' className='creat' onClick={afficher} ><b>Crée un comptes</b></a>
+                    <a href='#' className='creat' onClick={() => setShow(false)} ><b>Crée un comptes</b></a>
                 </div>
             </div>
         </section> 
@@ -45,7 +39,7 @@ export default function Formulaire() {
 
 
 
-        <section className='ecran2'>
+        {show? <section className='ecran2'>
             <div className='Login2' data-tilt>
                 <label>
                     <input type={'file'} id="demo" hidden />
@@ -64,19 +58,18 @@ export default function Formulaire() {
                 </div><br></br>
                 
                 <div>
-                    <input type={'password'} className="creer" placeholder="confirmer Mots de pass .................... "></input>
+                    <input type={'password'} className="creer" placeholder="confirmer Mots de pass"></input>
                 </div><br></br>
                 <div>
-                    <input type={'tel'} className="creer" placeholder="Telephone ...................."/>
+                    <input type={'tel'} className="creer" placeholder="Telephone"/>
                 </div><br></br>
                 <div>
-                    <input type={'text'} className="creer" placeholder="Adresse ...................."/><br/>
+                    <input type={'text'} className="creer" placeholder="Adresse"/><br/>
                 
-                    <input type={'submit'} className="submit2" value={"Suivant➡ "}></input>
+                    <input type={'submit'} className="submit2" placeholder='Suivant'></input>
                 </div><br></br>
             </div>
-        </section> 
-        
+        </section>:null} 
     </>
 
 
