@@ -1,21 +1,22 @@
 
 import Formulaire from './components/formulaire'
-import React from 'react';
 import Nav from './components/nav';
 import About from './components/about';
 import Hero from './components/hero';
 import "./index.css";
 import Sary from "./photos/gauche.png";
 import Footer from './components/footer';
-import './animation-library/css/slide.css'
+import './animation-library/css/slide.css';
+import React, {useState} from "react"
 
 export default function App() {
+    const [show,setShow] = useState(true) 
     return(
         <>
             <Nav/>
-            <Hero/>
-            <About/>
-            <div>
+            { show?<Hero/>:null}
+            { show?<About/>:null}
+            { show?<div>
                 <div className='conteneur'>
                     <img src={Sary} alt="" className='gauche' />
                     <div className='contenus_para'>
@@ -27,7 +28,7 @@ export default function App() {
                     </div>
                 </div>
                 <Footer />
-            </div>
+            </div>:null}
             <Formulaire/>
         </>
     )
