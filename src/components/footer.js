@@ -3,7 +3,7 @@ import Photo from "../photos/paysage.png";
 
 const Footer = () => {
     return (
-        <div className="contFooter">
+        <div className="contFooter" id="footer">
             <div>
                 <h3>Type de bien recherché</h3>
                 <p>
