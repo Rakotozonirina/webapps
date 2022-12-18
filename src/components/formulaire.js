@@ -1,27 +1,28 @@
 import React from 'react'
 import '../vanilla-tilt'
 export default function Formulaire() {
-    // function readFile() {
-    //     var reader = new FileReader();
-    //     var file = document.getElementById('demo').files[0];
+    const readFile = () => {
+        var reader = new FileReader();
+        var file = document.getElementById('demo').files[0];
 
-    //     reader.onload = function(e) {
-    //         document.getElementById('result').src = e.target.result;
+        reader.onload = function(e) {
+            document.getElementById('result').src = e.target.result;
         
-    //     }
-    //     reader.readAsDataURL(file);
+        }
+        reader.readAsDataURL(file);
 
-    // }
+    }
 
 
-        function afficher() {
+        const afficher = () => {
             document.querySelector('.ecran2').classList.toggle('active')
         }
 
 
     return(
     <>
-        <section className='ecran'>
+    <section className='ecran'>
+        
             <div className='Login' data-tilt>
                 <p className='logs'><b>Continuer en tant que Google</b></p>
                 <p>Ou</p>
@@ -36,7 +37,7 @@ export default function Formulaire() {
                 </div><br></br>
                 <div className='conth3'>
                     <h3>Pas de comps?</h3>
-                    <a href='#' className='creat' onClick={'afficher'}><b>Crée un comptes</b></a>
+                    <a href='#' className='creat' onClick={afficher} ><b>Crée un comptes</b></a>
                 </div>
             </div>
           </section> 
@@ -48,7 +49,7 @@ export default function Formulaire() {
             <div className='Login2' data-tilt>
                 <label>
                     <input type={'file'} id="demo" hidden />
-                    <span  className="av" id='result'  ></span>
+                    <span  className="av" id='result' onChange={readFile} ></span>
                 </label><br></br><br></br>
                 
                 <div className='name'>
@@ -70,12 +71,12 @@ export default function Formulaire() {
                 </div><br></br>
                 <div>
                     <input type={'text'} className="creer" placeholder="Adresse ...................."></input>
-                </div><br></br>
-                <div>
+                ><br></br>
+                
                     <input type={'submit'} className="submit2" value={"Suivant➡ "}></input>
                 </div><br></br>
             </div>
-          </section> 
+        </section> 
    
     </>
 

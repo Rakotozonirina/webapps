@@ -66,21 +66,23 @@
     
 }
 .ecran2{
+    background: url(image/Frame\ 13.png) no-repeat center center/cover;
+    margin-top: -25%;
+    margin-left: 30%;
+    height: 100px;
     position: absolute;
-    height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-    margin-top: -99%;
+
 }
-.ecran2.active{
-	display: flex;
-}
+
 .Login2{
-        
         width: 100%;
-        max-width: 700px;
+        height: 620px;
+        max-width: 900px;
         color:rgb(0, 0, 0) ;
+        margin-top: -15%;
         text-align: center;
         padding: 50px 30px;
         border: 1px solid rgba(255, 255, 255, 0.3);
@@ -90,7 +92,9 @@
         backdrop-filter: blur(5px);
 
 
-
+    }
+    .ecran2.active{
+        display: flex;
     }
     .logs{
         background-color: #C4C4C4;
@@ -118,8 +122,8 @@
         background-color: #0014FF;
         color: white;
         border-radius: 16px;
-        width: 150px;
-        height: 60px;
+        width: 140px;
+        height: 50px;
         
     }
     h3{
