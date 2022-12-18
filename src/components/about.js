@@ -1,41 +1,43 @@
 import React from "react"
-
+import '../animation-library/css/bounce.css'
+import '../animation-library/css/attention.css'
 
 export default function About() {
     return(
         <>
+        <h3 className='apropos u--swing'>A Propos</h3>
         <section className="about">
-          <div className="a">
-            <div className="back1"></div>
-           <h1>🏃‍♂️ Lieu de loisir</h1>
-           <h2>Lorem ipsum dolor sit amet,<br></br> 
+            <div className="a u--bounceIn">
+                <div className="back1"></div>
+                <h4>🏃‍♂️ Lieu de loisir</h4>
+                <p>Lorem ipsum dolor sit amet,<br></br> 
                 consectetur adipiscing elit. <br></br>
                 Nunc vulputate libero et velit<br></br>
-                interdum, ac aliquet odio mattis.</h2>
-          </div>
-          <div className="b">
-          <div className="back2"></div>
-          <h1 className="schr">🛍 Recherche du travail</h1>
-           <h2>Lorem ipsum dolor sit amet,<br></br> 
-                consectetur adipiscing elit. <br></br>
-                Nunc vulputate libero et velit<br></br>
-                interdum, ac aliquet odio mattis.</h2>
+                interdum, ac aliquet odio mattis.</p>
             </div>
-            <div className="c">
-            <div className="back3"></div>
-            <h1 className="schr2">📚 Recherche de documents</h1>
-           <h2 className="oo">Lorem ipsum dolor sit amet,<br></br> 
+            <div className="b u--bounceIn">
+                <div className="back2"></div>
+                <h4>🛍 Recherche <br/> du travail</h4>
+                <p>Lorem ipsum dolor sit amet,<br></br> 
                 consectetur adipiscing elit. <br></br>
                 Nunc vulputate libero et velit<br></br>
-                interdum, ac aliquet odio mattis.</h2>
+                interdum, ac aliquet odio mattis.</p>
             </div>
-            <div className="d">
-            <div className="back4"></div>
-            <h1>🏃‍♂️ Lieu de loisir</h1>
-           <h2>Lorem ipsum dolor sit amet,<br></br> 
+            <div className="c u--bounceIn">
+                <div className="back3"></div>
+                <h4>📚 Recherche de documents</h4>
+                <p>Lorem ipsum dolor sit amet,<br></br> 
                 consectetur adipiscing elit. <br></br>
                 Nunc vulputate libero et velit<br></br>
-                interdum, ac aliquet odio mattis.</h2>
+                interdum, ac aliquet odio mattis.</p>
+            </div>
+            <div className="d u--bounceIn">
+                <div className="back4"></div>
+                <h4 id="h_4">🏃‍♂️ Jeux</h4>
+                <p>Lorem ipsum dolor sit amet,<br></br> 
+                consectetur adipiscing elit. <br></br>
+                Nunc vulputate libero et velit<br></br>
+                interdum, ac aliquet odio mattis.</p>
             </div>
         </section>
         </>
