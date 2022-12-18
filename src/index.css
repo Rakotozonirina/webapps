@@ -18,7 +18,15 @@ section.home nav {
     z-index: 99;
     background-color: #f1f1f1;
 }
-
+section.home nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+section.home nav ul li{
+    margin: 0em 1em;
+}
 .conteneur {
     display: flex;
     box-shadow: 0px 0px 4px black;
