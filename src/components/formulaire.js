@@ -40,12 +40,12 @@ export default function Formulaire() {
                     <a href='#' className='creat' onClick={afficher} ><b>Crée un comptes</b></a>
                 </div>
             </div>
-          </section> 
+        </section> 
 
 
 
 
-          <section className='ecran2'>
+        <section className='ecran2'>
             <div className='Login2' data-tilt>
                 <label>
                     <input type={'file'} id="demo" hidden />
@@ -53,25 +53,25 @@ export default function Formulaire() {
                 </label><br></br><br></br>
                 
                 <div className='name'>
-                    <input type={'text'} className="creer" placeholder="Entrer votre Nom ...................."></input>
-                    <input type={'text'} className="creer" placeholder="Entrer votre Prenom ...................."></input>
+                    <input type={'text'} className="creer" placeholder="Entrer votre Nom"></input>
+                    <input type={'text'} className="creer" placeholder="Entrer votre Prenom "></input>
                 </div><br></br>
                 <div>
-                    <input type={'email'} className="creer" placeholder=" Entrer votre Email ...................."></input>
+                    <input type={'email'} className="creer" placeholder=" Entrer votre Email"></input>
                 </div><br></br>
                 <div>
-                    <input type={'password'} className="creer" placeholder="Mots de pass ...................."></input>
+                    <input type={'password'} className="creer" placeholder="Mots de pass"></input>
                 </div><br></br>
                 
                 <div>
-                    <input type={'password'} className="creer" placeholder="confirmer Mots de pass .................... "></input>
+                    <input type={'password'} className="creer" placeholder="confirmer Mots de pass"></input>
                 </div><br></br>
                 <div>
-                    <input type={'tel'} className="creer" placeholder="Telephone ...................."></input>
+                    <input type={'tel'} className="creer" placeholder="Telephone"></input>
                 </div><br></br>
                 <div>
-                    <input type={'text'} className="creer" placeholder="Adresse ...................."></input>
-                ><br></br>
+                    <input type={'text'} className="creer" placeholder="Adresse"></input>
+                <br></br>
                 
                     <input type={'submit'} className="submit2" value={"Suivant➡ "}></input>
                 </div><br></br>
