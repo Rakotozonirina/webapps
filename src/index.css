@@ -1,127 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+* {
     margin: 0;
 }
-section.home nav{
+
+html,
+body {
     width: 100%;
-    height: 5em;
+    height: 70%;
+}
+
+.conteneur {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-family: 'Poppins', sans-serif;
-    z-index: 2;
-    background-color: #f1f1f1;
+    box-shadow: 0px 0px 4px black;
+    padding: 10px;
 }
-section.home nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    margin-block-start: 1em;
-    width: 50rem;
+
+.conteneur:nth-child(1),
+.conteneur:nth-child(2) {
+    margin-bottom: 20px;
 }
-section.home nav ul li a{
-    text-decoration: none;
-    color: #000;
+
+.conteneur:nth-child(1) {
+    margin-top: 40px;
+    margin-bottom: -20px;
 }
-section.home nav button{
-    margin-inline-end: 6em;
-    padding: 0.8em;
-    outline: none;
-    border: none;
-    background-color: #0014FF;
-    color: #f1f1f1;
-    border-radius: 20px;
+
+.conteneur:nth-child(3) {
+    margin-top: 20px;
 }
-section.hero{
-    width: 100%;
-    height: 40em;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-}
-section.hero section.left-hero{
-    margin-block-start: 8em;
-    padding: 0em 5.5em;
-}
-section.hero section.left-hero h1{
-    font-style: italic;
-    color: #0014FF;
-}
-section.hero section.left-hero p{
-    margin-block-start: 1.2em;
-    font-family: 'Poppins', sans-serif;
-}
-section.hero section.left-hero div button{
-    padding: 1em;
-    width: 10em;
-    outline: none;
-    border: 1px solid #0014FF;
-    color: #0014FF;
-    border-radius: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-section.hero section.left-hero div button svg{
-    width: 1em;
-    height: 1em;
-    margin-inline-start: 1em;
-    fill: #0014FF;
-}
-section.hero section.left-hero div{
-    display: grid;
-    justify-content: flex-start;
-    margin-block-start: 1.6em;
-}
-section.hero section.right-hero{
+
+.contImage {
+    width: 200px;
+    height: 250px;
     position: relative;
-    overflow-x: hidden;
 }
-section.hero section.right-hero .image_one{
-    background: url("./image/image_one.png");
-    width: 24em;
-    height: 24em;
+
+.partieDroite {
+    width: 280px;
+}
+
+.bord {
+    width: 200px;
+    height: 80px;
+}
+
+.profilBord {
     position: absolute;
-    top: 13%;
-    left: 0%;
-    z-index: 1;
+    width: 100px;
+    left: 5px;
+    top: 0;
 }
-section.hero section.right-hero .image_two{
-    background: url("./image/image_two.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    z-index: 2;
+
+.contGD {
+    display: flex;
+    justify-content: space-around;
 }
-section.hero section.right-hero .image_three{
-    background: url("./image/image_three.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 27%;
-    left: 20%;
-    z-index: 3;
+
+.partieDroite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
 }
-section.hero section.right-hero .image_four{
-    background: url("./image/image_four.png");
-    width: 24em;
-    height: 24em;
-    position: absolute;
-    top: 34%;
-    left: 30%;
-    z-index: 4;
+
+.lieu {
+    color: blue;
+    text-align: center;
 }
-::-webkit-scrollbar {
-    width: 0.2em;
+
+.contLogo {
+    display: flex;
+    align-items: center;
+    color: blue;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.8);
-    border: 1px solid #777;
+
+.contLogo h2 {
+    margin-left: 10px;
 }
