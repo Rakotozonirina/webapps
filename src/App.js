@@ -1,3 +1,5 @@
+
+import Formulaire from './components/formulaire'
 import React from 'react';
 import Nav from './components/nav';
 import About from './components/about';
@@ -6,7 +8,6 @@ import "./index.css";
 import Sary from "./photos/gauche.png";
 import Footer from './components/footer';
 import './animation-library/css/slide.css'
-
 
 export default function App() {
     return(
@@ -27,6 +28,7 @@ export default function App() {
                 </div>
                 <Footer />
             </div>
+            <Formulaire/>
         </>
     )
 }
