@@ -21,7 +21,7 @@ export default function Formulaire() {
 
     return(
     <>
-    <section className='ecran'>
+    <section className='ecran'id='ecran'>
         
             <div className='Login' data-tilt>
                 <p className='logs'><b>Continuer en tant que Google</b></p>

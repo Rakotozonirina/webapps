@@ -41,6 +41,10 @@ section.home nav button{
     color: #f1f1f1;
     border-radius: 20px;
 }
+section.home nav button a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
 section.hero{
     width: 100%;
     height: 40em;
@@ -364,6 +368,9 @@ div.contenus_para{
     align-items: center;
 
 }
+.ecran2.active{
+    display: flex;
+}
 
 .Login2{
         width: 100%;
@@ -381,9 +388,7 @@ div.contenus_para{
 
 
     }
-    .ecran2.active{
-        display: flex;
-    }
+
     .logs{
         background-color: #C4C4C4;
         width: 100%;

@@ -11,7 +11,7 @@ export default function Nav() {
                         <li><a href="#">News</a></li>
                         <li><a href="#footer">Contact</a></li>
                     </ul>
-                    <button>Connexion</button>
+                    <button><a href='#ecran'>Connexion</a></button>
                 </nav>
             </section>
     )

@@ -7,16 +7,16 @@ import "./index.css";
 import Sary from "./photos/gauche.png";
 import Footer from './components/footer';
 import './animation-library/css/slide.css';
-import React, {useState} from "react"
+import React from "react"
 
 export default function App() {
-    const [show,setShow] = useState(true) 
+    
     return(
         <>
             <Nav/>
-            { show?<Hero/>:null}
-            { show?<About/>:null}
-            { show?<div>
+            <Hero/>
+            <About/>
+            <div>
                 <div className='conteneur'>
                     <img src={Sary} alt="" className='gauche' />
                     <div className='contenus_para'>
@@ -28,8 +28,8 @@ export default function App() {
                     </div>
                 </div>
                 <Footer />
-            </div>:null}
-            <Formulaire/>
+            </div>
+            <Formulaire />
         </>
     )
 }
