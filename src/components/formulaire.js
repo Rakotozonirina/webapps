@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../vanilla-tilt'
 export default function Formulaire() {
     const readFile = () => {
@@ -12,16 +12,10 @@ export default function Formulaire() {
         reader.readAsDataURL(file);
 
     }
-
-
-        const afficher = () => {
-            document.querySelector('.ecran2').classList.toggle('active')
-        }
-
-
+    const [show, setShow] = useState(true)
     return(
     <>
-    <section className='ecran'>
+    <section className='ecran'id='ecran'>
         
             <div className='Login' data-tilt>
                 <p className='logs'><b>Continuer en tant que Google</b></p>
@@ -37,7 +31,7 @@ export default function Formulaire() {
                 </div><br></br>
                 <div className='conth3'>
                     <h3>Pas de comps?</h3>
-                    <a href='#' className='creat' onClick={afficher} ><b>Crée un comptes</b></a>
+                    <a href='#' className='creat' onClick={() => setShow(false)} ><b>Crée un comptes</b></a>
                 </div>
             </div>
         </section> 
@@ -73,7 +67,7 @@ export default function Formulaire() {
                     <input type={'text'} className="creer" placeholder="Adresse"></input>
                 <br></br>
                 
-                    <input type={'submit'} className="submit2" value={"Suivant➡ "}></input>
+                    <input type={'submit'} className="submit2" placeholder='Suivant'></input>
                 </div><br></br>
             </div>
         </section> 
