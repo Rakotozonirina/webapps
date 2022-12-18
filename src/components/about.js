@@ -6,7 +6,7 @@ export default function About() {
     return(
         <>
         <h3 className='apropos u--swing'>A Propos</h3>
-        <section className="about">
+        <section className="about" id="about">
             <div className="a u--bounceIn">
                 <div className="back1"></div>
                 <h4>🏃‍♂️ Lieu de loisir</h4>
