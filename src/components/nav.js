@@ -8,7 +8,6 @@ export default function Nav() {
                     <ul>
                         <li><a href="#" className='active'>Accueil</a></li>
                         <li><a href="#about">A propos</a></li>
-                        <li><a href="#">News</a></li>
                         <li><a href="#footer">Contact</a></li>
                     </ul>
                     <button><a href='#ecran'>Connexion</a></button>

@@ -17,15 +17,16 @@ section.home nav {
     font-family: 'Poppins', sans-serif;
     z-index: 99;
     background-color: #f1f1f1;
+    height: 5em;
 }
 section.home nav ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-}
-section.home nav ul li{
-    margin: 0em 1em;
+    width: 40em;
+    margin-inline-start: 5em;
+    margin-block-start: 0.8em;
 }
 .conteneur {
     display: flex;

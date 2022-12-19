@@ -19,8 +19,7 @@ export default function App() {
                 <div className='conteneur'>
                     <img src={Sary} alt="" className='gauche' />
                     <div className='contenus_para'>
-                        <h2 className='u--slideUp'>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.</h2>
+                        <h2 className='u--slideUp'>Lorem ipsum dolor sit amet,</h2>
                         <p className='u--slideUp'>Pour faire des etude et des recherche
                             des besoin</p>
                         <button className='bienvenu'>Bienvenu</button>
