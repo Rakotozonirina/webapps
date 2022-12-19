@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    overflow-x: hidden;
+}
 *{
     margin: 0;
     padding: 0;
@@ -84,7 +87,6 @@ section.hero section.left-hero div{
 }
 section.hero section.right-hero{
     position: relative;
-    overflow-x: hidden;
 }
 section.hero section.right-hero .image_one{
     background: url("./image/image_one.png");
