@@ -1,13 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-section.home nav {
+section.home nav{
     width: 100%;
+    height: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,40 +15,9 @@ section.home nav {
     font-family: 'Poppins', sans-serif;
     z-index: 99;
     background-color: #f1f1f1;
-    height: 5em;
 }
 section.home nav ul{
     display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    width: 40em;
-    margin-inline-start: 5em;
-    margin-block-start: 0.8em;
-}
-.conteneur {
-    display: flex;
-    box-shadow: 0px 0px 4px black;
-    padding: 10px;
-}
-
-.conteneur:nth-child(1),
-.conteneur:nth-child(2) {
-    margin-bottom: 20px;
-}
-
-.conteneur:nth-child(1) {
-    margin-top: 40px;
-    margin-bottom: -20px;
-}
-
-.conteneur:nth-child(3) {
-    margin-top: 20px;
-}
-
-.contImage {
-    width: 200px;
-    height: 250px;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
@@ -117,55 +84,51 @@ section.hero section.left-hero div{
 }
 section.hero section.right-hero{
     position: relative;
+    overflow-x: hidden;
 }
-
-.partieDroite {
-    width: 280px;
-}
-
-.bord {
-    width: 200px;
-    height: 80px;
-}
-
-.profilBord {
+section.hero section.right-hero .image_one{
+    background: url("./image/image_one.png");
+    width: 24em;
+    height: 24em;
     position: absolute;
-    width: 100px;
-    left: 5px;
-    top: 0;
+    top: 13%;
+    left: 0%;
+    z-index: 1;
 }
-
-.contGD {
-    display: flex;
-    justify-content: space-around;
+section.hero section.right-hero .image_two{
+    background: url("./image/image_two.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
 }
-
-.partieDroite {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 10px;
+section.hero section.right-hero .image_three{
+    background: url("./image/image_three.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    z-index: 3;
 }
-
-.lieu {
-    color: blue;
-    text-align: center;
+section.hero section.right-hero .image_four{
+    background: url("./image/image_four.png");
+    width: 24em;
+    height: 24em;
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    z-index: 4;
 }
-.contLogo {
-    display: flex;
-    align-items: center;
-    color: blue;
-    border-bottom: 2px solid black;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+::-webkit-scrollbar {
+    width: 0.2em;
 }
-
-.contLogo h2 {
-    margin-left: 10px;
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-
 ::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.8);
     border: 1px solid #777;
@@ -384,6 +347,9 @@ div.contenus_para{
     .creat{
         color: #0014FF;
     }
+
+
+/*page 2*/
 
 .av{
     width: 100px;
