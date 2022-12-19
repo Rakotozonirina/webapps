@@ -65,12 +65,12 @@ export default function Formulaire() {
                 </div><br></br>
                 <div>
                     <input type={'text'} className="creer" placeholder="Adresse ...................."></input>
-                ><br></br>
+                <br></br>
                 
                     <input type={'submit'} className="submit2" placeholder='Suivant'></input>
                 </div><br></br>
             </div>
-        </section>:null} 
+        </section>
     </>
 
 
