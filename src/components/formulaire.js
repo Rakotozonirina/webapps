@@ -39,7 +39,7 @@ export default function Formulaire() {
 
 
 
-          <section className='ecran2'>
+        <section className='ecran2'>
             <div className='Login2' data-tilt>
                 <label>
                     <input type={'file'} id="demo" hidden />
@@ -78,5 +78,5 @@ export default function Formulaire() {
 
 
 
-    )
+    );
 }
